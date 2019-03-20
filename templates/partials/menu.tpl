@@ -166,6 +166,7 @@
 				<!-- ENDIF config.loggedIn -->
 				<!-- IF config.searchEnabled -->
 				<ul class="nav navbar-nav navbar-right">
+				        <!-- be gone
 					<li>
 						<form id="search-form" class="navbar-form navbar-right hidden-xs" role="search" method="GET">
 							<button id="search-button" type="button" class="btn btn-link"><i class="fa fa-search fa-fw" title="[[global:header.search]]"></i></button>
@@ -181,6 +182,7 @@
 							<!-- IMPORT partials/quick-search-results.tpl -->
 						</ul>
 					</li>
+					-->
 					<li class="visible-xs" id="search-menu">
 						<a href="{relative_path}/search">
 							<i class="fa fa-search fa-fw"></i> [[global:search]]
